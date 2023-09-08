@@ -1,0 +1,59 @@
+.product_box
+{
+    border-radius : 1rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    margin: 1%;
+    margin-bottom: 6%;
+    width: 98%;
+    min-height: 100vh;
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+span img 
+{
+    float:left;
+    max-width:43rem;
+
+}
+span h2
+{
+    display: block;
+}
+
+.req_btn
+{
+  width: max-content;
+  display: inline-block;
+  color: var(--bits_yellow);
+  background-color: var(--bits_dark_blue);
+  padding-left: 2rem; /* Left(0.75) and Right(1.25) Padding */
+  padding-right: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.4rem; /* rounded buttons */
+  cursor: pointer;
+  font-size: 1rem;
+}
+.req_btn:hover
+{
+  background-color: var(--neon_blue);
+  color: var(--bits_yellow);     
+}
+
+.price_input
+{
+    width: 20%;
+    height: 1%;
+    font-weight: 450;
+    font-size: medium;
+    border-radius: 1rem;
+    padding: 0.75%;
+    padding-left: 1.5%;
+    border: 1px solid black;
+}
+.price_input:hover
+{
+    border: 1px solid var(--neon_blue);
+
+}

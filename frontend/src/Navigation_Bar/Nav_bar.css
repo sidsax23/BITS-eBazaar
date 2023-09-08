@@ -1,0 +1,39 @@
+nav
+{
+    background: var(--bits_light_blue);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.3rem;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(20px);
+
+}
+
+nav a
+{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--light_color);
+    font-size: 1.2rem;
+}
+
+nav a:hover
+{
+    background: var(--bits_red);
+    color: var(--bits_yellow);
+    
+}
+
+nav a.active
+{
+    background: var(--bits_red);
+    color: var(--bits_yellow);
+}

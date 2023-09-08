@@ -1,0 +1,200 @@
+*
+{
+    font-family:  'Poppins', sans-serif;
+}
+
+.bg_image
+{
+    background-image: url('./Assets/BITS_Campus_blurred.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: #f5f5f5;
+    overflow:auto;
+    background-repeat: no-repeat;
+    width:100%;
+}
+
+.logo
+{
+    display: inline-block;
+    width: 12.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2.2rem;
+    filter: drop-shadow( 0rem 0rem 1rem black);
+}
+.logo:hover
+{
+    filter: drop-shadow( 0rem 0rem 1rem white );
+    cursor:default;
+
+}
+
+.central_title
+{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    height : max-content;
+    width: max-content;
+    text-shadow: 0 0 1rem black;
+}
+
+.central_title:hover
+{
+    text-shadow: 0 0 1rem var(--neon_blue);
+    cursor:default;
+
+}
+
+
+.login_box
+{
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    height: max-content;
+    width: 40rem;
+    border-radius: 1rem;
+    vertical-align: top;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.login_box label
+{
+    text-align:left ;
+    display: block;
+    padding-left: 5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.inputbar, .inputbar_large
+{
+    display: block;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    width: 90%;
+    padding: 0.5%;
+}
+.inputbar
+{
+   height: auto;
+}
+.inputbar:hover, .inputbar_large:hover
+{
+    border: 1px solid var(--neon_blue);
+}
+
+.btn
+{
+  width: max-content;
+  display: inline-block;
+  color: white;
+  background-color: black;
+  padding-left: 2rem; /* Left(0.75) and Right(1.25) Padding */
+  padding-right: 2rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.4rem; /* rounded buttons */
+  cursor: pointer;
+  font-size: 1rem;
+}
+.btn:hover
+{
+  background-color: var(--neon_blue);
+  color: white;     
+}
+
+a
+{
+    color: var(--neon_blue);
+}
+
+a:hover
+{
+    color: var(--bits_red);
+}
+
+.login-with-google-btn 
+{
+    transition: background-color .3s, box-shadow .3s;
+      
+    padding: none;
+    text-align: center;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .04), 0 1px 1px rgba(0, 0, 0, .25);
+    
+    color: #757575;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTcuNiA5LjJsLS4xLTEuOEg5djMuNGg0LjhDMTMuNiAxMiAxMyAxMyAxMiAxMy42djIuMmgzYTguOCA4LjggMCAwIDAgMi42LTYuNnoiIGZpbGw9IiM0Mjg1RjQiIGZpbGwtcnVsZT0ibm9uemVybyIvPjxwYXRoIGQ9Ik05IDE4YzIuNCAwIDQuNS0uOCA2LTIuMmwtMy0yLjJhNS40IDUuNCAwIDAgMS04LTIuOUgxVjEzYTkgOSAwIDAgMCA4IDV6IiBmaWxsPSIjMzRBODUzIiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNNCAxMC43YTUuNCA1LjQgMCAwIDEgMC0zLjRWNUgxYTkgOSAwIDAgMCAwIDhsMy0yLjN6IiBmaWxsPSIjRkJCQzA1IiBmaWxsLXJ1bGU9Im5vbnplcm8iLz48cGF0aCBkPSJNOSAzLjZjMS4zIDAgMi41LjQgMy40IDEuM0wxNSAyLjNBOSA5IDAgMCAwIDEgNWwzIDIuNGE1LjQgNS40IDAgMCAxIDUtMy43eiIgZmlsbD0iI0VBNDMzNSIgZmlsbC1ydWxlPSJub256ZXJvIi8+PHBhdGggZD0iTTAgMGgxOHYxOEgweiIvPjwvZz48L3N2Zz4=);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+
+    width: 20rem;
+    height: 2.5rem;
+    
+}
+.login-with-google-btn:hover
+{
+    cursor:pointer ;
+    box-shadow: 0 0 0.5rem var(--neon_blue);
+}
+
+.ErrorMsg
+{
+    color: red;
+}
+
+.SuccessMsg
+{
+    color: green;
+}
+
+@media (max-width:700px)
+{
+    .logo
+    {
+        width: 10rem;
+    }
+    .login_box, a
+    {
+        width:75%;
+        height: auto;
+        font-size: 0.5rem;
+        margin: 0;
+    }
+    .btn
+    {
+        padding-left: 2rem;
+    }
+    .central_title
+    {
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+    .login_box input
+    {
+        width: 85%;
+        font-size: 0.5rem;
+    }
+    .login_box label
+    {
+        padding-left: 2rem;
+        padding-right: 0rem;
+        
+    }
+    .login-with-google-btn
+    {
+        width:12rem;
+        font-size: 0.8rem;
+    }
+}

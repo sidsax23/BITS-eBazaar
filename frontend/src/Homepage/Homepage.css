@@ -1,0 +1,43 @@
+header
+{
+    height: 20%;
+    background-color: black;
+    color:white
+}
+
+body
+{
+    background-image: url('./Assets/BITS_NAB_Blurred.jpg');
+    background-size: cover;
+    background-repeat: none;
+    overflow-x: hidden;
+    
+
+}
+
+h1,h2,p
+{
+    color: var(--bits_dark_blue);
+
+}
+p
+{
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+
+
+
+
+.lander
+{
+    border-radius : 1rem;
+    margin-top: 1.5rem;
+    padding: 2rem;
+    width: 70rem;
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+

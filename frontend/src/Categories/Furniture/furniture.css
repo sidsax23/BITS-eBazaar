@@ -1,0 +1,47 @@
+body
+{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+
+
+
+
+.furniture_box
+{
+    border-radius : 1rem;
+    padding: 0.5rem;
+    margin: 1%;
+    width: 98%;
+    height: max-content;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+
+
+.sidebar_items_wrap
+{
+    display: flex;
+    flex:1;
+}
+
+.items
+{
+    flex:1;
+}
+
+.sidebar
+{
+    flex-basis: 15rem;
+}
+
+.sidebar_items_wrap,.items, .sidebar
+{
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}

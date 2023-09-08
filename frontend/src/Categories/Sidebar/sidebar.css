@@ -1,0 +1,27 @@
+.sidebar
+{
+    flex-basis: 15rem;
+}
+.filter_criteria
+{
+    text-align: left;
+    padding-left: 2rem;
+
+}
+
+.checkbox
+{
+    cursor: pointer;
+}
+
+.price
+{
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    padding: 0.15rem;
+    padding-left: 0.2rem;
+}
+.price:hover
+{
+    border: 1px solid var(--neon_blue);
+}
